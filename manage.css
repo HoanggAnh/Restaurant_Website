@@ -1,0 +1,129 @@
+.col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.nav-link {
+    color: red;
+}
+
+.nav-link:hover {
+    color: rgb(150, 233, 150);
+}
+
+.container.mys {
+    max-width: 5000px;
+    padding-bottom: 50px;
+}
+
+h1 {
+    padding: 30px 0 40px 80px;
+    font-size: 2rem;
+}
+
+.table {
+    max-width: 89%;
+    margin-left: 80px;
+}
+
+.text-table.der {
+    color: #2dc653;
+    font-weight: 500;
+}
+
+.text-table.can {
+    color: red;
+    font-weight: 500;
+}
+
+.update-text {
+    color: black;
+    font-weight: boid;
+    background-color: green;
+}
+
+.footer {
+    background-color: #e5383b;
+    margin: 0 auto;
+}
+
+.text-link {
+    color: rgb(150, 233, 150);
+    text-decoration: none;
+}
+
+.text-link:hover {
+    color: #f4cae0;
+}
+
+.img-manage {
+    width: 40%;
+}
+
+.img-pos {
+    width: 200px;
+}
+
+.btn {
+    padding: 0.5%;
+    width: 40%;
+    border: none;
+    margin: 2px;
+}
+
+.btn-primary {
+    background-color: #e5383b;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #fcd5ce;
+}
+
+.button-table {
+    background-color: rgb(94, 151, 250);
+    margin-left: 80px;
+    border: none;
+    margin-bottom: 50px;
+    color: cornsilk;
+    font-weight: 400;
+}
+
+.button-table:hover {
+    background-color: darksalmon;
+    color: black;
+}
+
+.btn.btn-primary.butt {
+    padding: 0%;
+    width: 20% !important;
+}
+
+.g-col-3 {
+    border: 1px solid black;
+    float: left;
+    padding: 50px;
+}
+
+.size-box {
+    width: 250px;
+    height: 140px;
+}
+
+.box-pos {
+    margin-left: 150px;
+}
+
+.box-text {
+    padding-top: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    padding-top: 2%;
+}

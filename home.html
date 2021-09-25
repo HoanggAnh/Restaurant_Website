@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant Website</title>
+</head>
+
+<body>
+    <header>
+        <!--Logo-->
+        <div class="container-fluid">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <img src="images/logo.png" alt="wowFood" class="img-fluid logo">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto mb-2 mb-1g-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Categories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Foods</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!--End logo-->
+
+    <!--Food sreach-->
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="food-search text-center ">
+                <form action="">
+                    <input type="search" name="search" placeholder="Search for food..." style="border-radius: 5px">
+                    <input type="submit" name="submit" value="Search" class="btn btn-primary">
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!--End Food sreach-->
+
+    <!--Explore Food-->
+    <div class="container-fluid container explore-food">
+        <div class="row">
+            <div class=" text-center ">
+                <h2 class="">Explore Foods</h2>
+            </div>
+        </div>
+    </div>
+    <!--img-fluid-->
+    <div class="container-fluid img-res ">
+        <div class="row d-inline-flex">
+            <!-- Gallery Item 1 -->
+            <div class="col-6 col-sm-4 col-md-3 p-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/pizza.jpg" />
+                    <h3 class="float-text text-white">Pizza</h3>
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="col-6 col-sm-4 col-md-3 p-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/burger.jpg" />
+                    <h3 class="float-text text-white">Burger</h3>
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="col-6 col-sm-4 col-md-3 p-2">
+                <div class="card">
+                    <img class="card-img-top" src="images/momo.jpg" />
+                    <h3 class="float-text text-white">Momo</h3>
+                </div>
+            </div>
+        </div>
+        <!--End Explore Food-->
+
+
+        <!--Menu Food-->
+        <div class="container-fluid explore-food my-bg">
+            <div class="row">
+                <div class="text-center">
+                    <h2>Food Menu</h2>
+                </div>
+                <!-- card images -->
+                <div class="col-md-6 left">
+                    <div class="card mb-3" style="max-width: 450px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/menu-momo.jpg" alt="Dumplings Specials" class="img-fluid img-card">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dumplings Specials</h5>
+                                    <p class="card-text">$5.00</p>
+                                    <p class="card-text">Chickent Dumpling with herbfrom Mountains.</p>
+                                    <a href="" class="btn btn-primary">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 450px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/menu-burger.jpg" alt="Best Burger" class="img-fluid img-card">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Best Burger</h5>
+                                    <p class="card-text">$4.00</p>
+                                    <p class="card-text">Burger with Ham, Pineapple and lots of Cheese.</p>
+                                    <a href="" class="btn btn-primary">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 left">
+                    <div class="card mb-3" style="max-width: 450px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/menu-pizza.jpg" alt="Mixed Pizza" class="img-fluid img-card">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chicken Steam Momo</h5>
+                                    <p class="card-text">$10.00</p>
+                                    <p class="card-text">Pizza with chicken, Ham, Buf, Mushroom and Vegatables.</p>
+                                    <a href="" class="btn btn-primary">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 450px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="images/menu-momo.jpg" alt="Sadeko Momo" class="img-fluid img-card">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sadeko Momo</h5>
+                                    <p class="card-text">$6.00</p>
+                                    <p class="card-text">Best Spicy Momo for Winter.</p>
+                                    <a href="" class="btn btn-primary">Order Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <p class="text-center text-last"><a href="">See All Foods</a></p>
+        </div>
+        <!--End Menu Food-->
+
+
+        <!-- Footer -->
+        <div class="container">
+            <div class="row">
+                <footer class="text-center">
+                    <!-- Grid container -->
+                    <div class="container p-4 pb-0">
+                        <!-- Section: Social media -->
+                        <section class="mb-4">
+                            <!-- Facebook -->
+                            <a href=""><img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" class="img-icon"></a>
+
+                            <!-- Instagram -->
+                            <a href=""><img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" class="img-icon"></a>
+
+                            <!-- Twitter -->
+                            <a href=""><img src="https://img.icons8.com/color/48/000000/twitter--v1.png" alt="Twitter" class="img-icon"></a>
+
+                        </section>
+                        <!-- Section: Social media -->
+                    </div>
+                    <!-- Grid container -->
+
+                    <p class="text-center text-last">All rights reserved. Designed By <a href="">HoangAnh</a></p>
+            </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- end Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

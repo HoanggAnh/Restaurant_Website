@@ -1,0 +1,149 @@
+.col-md-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar.navbar-expand-lg {
+    padding: 20px;
+}
+
+.logo {
+    width: 15%;
+    padding-left: 50px;
+}
+
+.nav-link {
+    color: red;
+}
+
+.nav-link:hover {
+    color: rgb(150, 233, 150);
+}
+
+.food-search {
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"] {
+    width: 40%;
+    padding: 0.7%;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn {
+    padding: 0.7%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #e5383b;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: #fcd5ce;
+}
+
+.explore-food {
+    margin-top: 50px;
+}
+
+.img-res {
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.row.d-inline-flex {
+    padding-left: 20%;
+}
+
+.card {
+    border: none;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 15px;
+    left: 40%;
+}
+
+.my-bg {
+    background-color: rgb(241, 240, 240);
+    padding-top: 50px;
+}
+
+.img-card {
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.col-md-6 {
+    padding: 0%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 2%;
+}
+
+.col-md-6.left {
+    padding: 0%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 15%;
+}
+
+.col-md-6.right {
+    margin-left: 13%;
+}
+
+.card.mb-3 {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.text-last {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(150, 233, 150);
+}
+
+.img-icon {
+    padding: 1%;
+    padding-bottom: 5px;
+}
+
+.oip {
+    width: 19%;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.container.footer {
+    margin-top: 100px;
+}
